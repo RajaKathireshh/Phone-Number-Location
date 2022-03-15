@@ -23,7 +23,7 @@ print(carrier.name_for_number(service,"en"))   # To find the operator
 
 from opencage.geocoder import OpenCageGeocode
 
-key = '2fa807adce1644eab0c115bd751a0fad'
+key = 'xxxxxxx'# This API key can be accessed from opencage. Hidden for confidential details. 
 
 geocoder = OpenCageGeocode(key)
 query=str(location)
